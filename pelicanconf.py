@@ -3,14 +3,16 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'James Lipe'
-SITENAME = u'jameslipe.com'
+SITENAME = u'James Lipe Portfolio'
 SITEURL = ''
 
 PATH = 'content'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'America/Los_Angeles'
 
 DEFAULT_LANG = u'en'
+
+STATIC_PATHS = ['images', 'pdfs']
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -18,6 +20,7 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
